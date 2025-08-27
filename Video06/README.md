@@ -1,4 +1,4 @@
-# Video 6: Top 9 AI Coding Tools - Complete Guide
+# Video 6: Top AI Coding Tools - Complete Guide
 
 ## Quick Start Guide
 
