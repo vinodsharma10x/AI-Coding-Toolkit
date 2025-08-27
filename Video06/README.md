@@ -1,26 +1,26 @@
 # Video 6: Top 9 AI Coding Tools - Complete Guide
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 Follow along with the video using this step-by-step reference guide. Each tool includes example prompts you can copy and use immediately.
 
 ---
 
-## 📋 Tools Overview
+## Tools Overview
 
-1. **ChatGPT & Claude** - AI chat tools for code generation
-2. **Figma Make** - Design-to-code for designers
-3. **Canva Code** - Marketing sites for non-developers
-4. **Bolt.new** - Full-stack apps in browser
-5. **V0 by Vercel** - React components specialist
-6. **Lovable** - Production-ready applications
-7. **Cursor** - AI-powered IDE
-8. **VS Code + Copilot** - Enhanced VS Code
-9. **Claude Code CLI** - Maximum power combo
+- **ChatGPT & Claude** - AI chat tools for code generation
+- **Figma Make** - Design-to-code for designers
+- **Canva Code** - Marketing sites for non-developers
+- **Bolt.new** - Full-stack apps in browser
+- **V0 by Vercel** - React components specialist
+- **Lovable** - Production-ready applications
+- **Cursor** - AI-powered IDE
+- **VS Code + Copilot** - Enhanced VS Code
+- **Claude Code CLI** - Maximum power combo
 
 ---
 
-## 🔧 Tool 1: ChatGPT & Claude
+## Tool 1: ChatGPT & Claude
 
 ### Quick Start
 - **ChatGPT**: https://chat.openai.com
@@ -41,15 +41,14 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ```
 
 ### Best For
-✅ Learning concepts  
-✅ Quick scripts  
-✅ Debugging help  
-❌ Full applications  
-❌ Live preview  
+- Learning concepts  
+- Quick scripts  
+- Debugging help  
+- Not ideal for: Full applications, Live preview  
 
 ---
 
-## 🎨 Tool 2: Figma Make
+## Tool 2: Figma Make
 
 ### Quick Start
 - **Website**: https://www.figma.com/make
@@ -66,13 +65,13 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ```
 
 ### Perfect For
-✅ Designers learning code  
-✅ Design-heavy apps  
-✅ Rapid prototyping  
+- Designers learning code  
+- Design-heavy apps  
+- Rapid prototyping  
 
 ---
 
-## 🎯 Tool 3: Canva Code
+## Tool 3: Canva Code
 
 ### Quick Start
 - **Access**: Through Canva Pro
@@ -89,13 +88,13 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ```
 
 ### Ideal For
-✅ Marketing pages  
-✅ Email templates  
-✅ Non-technical users  
+- Marketing pages  
+- Email templates  
+- Non-technical users  
 
 ---
 
-## ⚡ Tool 4: Bolt.new
+## Tool 4: Bolt.new
 
 ### Quick Start
 - **Website**: https://bolt.new
@@ -116,10 +115,10 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ```
 
 ### Features
-✅ Full-stack apps  
-✅ Database included  
-✅ Instant deployment  
-✅ No setup required  
+- Full-stack apps  
+- Database included  
+- Instant deployment  
+- No setup required  
 
 ### Pro Tips
 - Use for MVPs and prototypes
@@ -128,7 +127,7 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 
 ---
 
-## 🎯 Tool 5: V0 by Vercel
+## Tool 5: V0 by Vercel
 
 ### Quick Start
 - **Website**: https://v0.dev
@@ -149,10 +148,10 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ```
 
 ### Specializes In
-✅ React components  
-✅ Landing pages  
-✅ UI elements  
-✅ Tailwind CSS  
+- React components  
+- Landing pages  
+- UI elements  
+- Tailwind CSS  
 
 ### Pro Tips
 - Perfect for component libraries
@@ -161,7 +160,7 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 
 ---
 
-## 🏗️ Tool 6: Lovable (formerly GPT Engineer)
+## Tool 6: Lovable (formerly GPT Engineer)
 
 ### Quick Start
 - **Website**: https://lovable.dev
@@ -178,20 +177,20 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ```
 
 ### Best For
-✅ Production apps  
-✅ Complex logic  
-✅ Supabase integration  
-✅ Think Mode planning  
+- Production apps  
+- Complex logic  
+- Supabase integration  
+- Think Mode planning  
 
 ---
 
-## 💻 Tool 7: Cursor
+## Tool 7: Cursor
 
 ### Quick Start
-1. **Download**: https://cursor.com
-2. **Install** on your computer
-3. **Sign in** with email
-4. **Choose AI model** (GPT-4 or Claude)
+- **Download**: https://cursor.com
+- **Install** on your computer
+- **Sign in** with email
+- **Choose AI model** (GPT-4 or Claude)
 
 ### CMD+K Prompts (Inline Editing)
 
@@ -215,14 +214,14 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 
 ---
 
-## 🔵 Tool 8: VS Code + GitHub Copilot
+## Tool 8: VS Code + GitHub Copilot
 
 ### Setup Steps
-1. Open VS Code
-2. Go to Extensions
-3. Search "GitHub Copilot"
-4. Install and sign in with GitHub
-5. Enable chat window
+- Open VS Code
+- Go to Extensions
+- Search "GitHub Copilot"
+- Install and sign in with GitHub
+- Enable chat window
 
 ### Comment Triggers for Copilot
 
@@ -244,12 +243,12 @@ async function fetchUser
 
 ---
 
-## 🚀 Tool 9: Claude Code CLI
+## Tool 9: Claude Code CLI
 
 ### My Power Setup
-1. **VS Code** open with project
-2. **Terminal** split for Claude Code
-3. **GitHub Copilot** for autocomplete
+- **VS Code** open with project
+- **Terminal** split for Claude Code
+- **GitHub Copilot** for autocomplete
 
 ### Setup Commands
 
@@ -280,7 +279,7 @@ claude chat --model opus
 
 ---
 
-## 📊 Quick Decision Guide
+## Quick Decision Guide
 
 | Your Situation | Best Tool |
 |---------------|-----------|
@@ -296,7 +295,7 @@ claude chat --model opus
 
 ---
 
-## 🎯 Your Learning Path
+## Your Learning Path
 
 ### Month 1: Foundation
 - Week 1-2: ChatGPT/Claude basics
@@ -314,7 +313,7 @@ claude chat --model opus
 
 ---
 
-## 💰 Pricing Quick Reference
+## Pricing Quick Reference
 
 | Tool | Free Tier | Paid |
 |------|-----------|------|
@@ -331,17 +330,17 @@ claude chat --model opus
 
 ---
 
-## 🚨 Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
-1. **Tool Hopping** - Master one before moving to the next
-2. **Ignoring Free Tiers** - Start free, upgrade when needed
-3. **Not Saving Work** - Always export or connect to GitHub
-4. **Skipping Documentation** - Read the tool guides
-5. **Copy-Paste Without Understanding** - Learn from the generated code
+- **Tool Hopping** - Master one before moving to the next
+- **Ignoring Free Tiers** - Start free, upgrade when needed
+- **Not Saving Work** - Always export or connect to GitHub
+- **Skipping Documentation** - Read the tool guides
+- **Copy-Paste Without Understanding** - Learn from the generated code
 
 ---
 
-## 📚 Resources
+## Resources
 
 ### Official Sites
 - V0: https://v0.dev
@@ -358,13 +357,13 @@ claude chat --model opus
 
 ---
 
-## 🎬 Follow Along Challenge
+## Follow Along Challenge
 
 ### Today's Task
-1. Pick ONE tool from this list
-2. Use one of the example prompts
-3. Build something in 10 minutes
-4. Share with #VibeCoding
+- Pick ONE tool from this list
+- Use one of the example prompts
+- Build something in 10 minutes
+- Share with #AICoding
 
 ### This Week
 - Day 1-2: Try a browser tool (Bolt/V0)
@@ -374,7 +373,7 @@ claude chat --model opus
 
 ---
 
-## 📝 Notes Section
+## Notes Section
 
 Use this space to track your progress:
 
@@ -387,38 +386,38 @@ Use this space to track your progress:
 
 ---
 
-## 🔗 Connect & Share
+## Connect & Share
 
 - **YouTube**: Subscribe for more tutorials
-- **Twitter/X**: Share with #VibeCoding
+- **Twitter/X**: Share with #AICoding
 - **Questions?**: Comment on the video
 
 ---
 
-## 💡 Pro Tips
+## Pro Tips
 
-1. **Start Simple** - Don't try to build Facebook on day 1
-2. **Use Free Tiers** - Test before paying
-3. **Save Everything** - Export code, connect GitHub
-4. **Learn Patterns** - Study the generated code
-5. **Combine Tools** - Use V0 for UI, Bolt for backend
+- **Start Simple** - Don't try to build Facebook on day 1
+- **Use Free Tiers** - Test before paying
+- **Save Everything** - Export code, connect GitHub
+- **Learn Patterns** - Study the generated code
+- **Combine Tools** - Use V0 for UI, Bolt for backend
 
 ---
 
-## 🎯 Your Next Steps
+## Your Next Steps
 
-1. **Watch** the full video
-2. **Choose** your first tool
-3. **Copy** an example prompt
-4. **Build** something today
-5. **Share** your results
+- **Watch** the full video
+- **Choose** your first tool
+- **Copy** an example prompt
+- **Build** something today
+- **Share** your results
 
 Remember: Every expert was once a beginner. Start where you are, use what you have, do what you can!
 
 ---
 
-*Created for Vibe Coding for Beginners by Vinod Sharma*
+*Created for AI Coding for Beginners by Vinod Sharma*
 
-**Last Updated**: August 2024  
+**Last Updated**: August 2025  
 **Video Link**: [Watch on YouTube]  
 **Next Video**: Secret Prompt Formulas That 10x Your Results
