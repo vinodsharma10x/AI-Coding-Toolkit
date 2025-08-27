@@ -228,6 +228,10 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ### CMD+K Prompts (Inline Editing)
 
 ```
+Please go through the entire code and  understand what it does, how it does it and explain to me. 
+```
+
+```
 "Split this function into smaller, more focused functions"
 ```
 
