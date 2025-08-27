@@ -162,7 +162,7 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ```
 
 ```
-"Build a pricing table with 3 tiers, monthly/annual toggle, and popular badge"
+"Build a landing page that has pricing table with 3 tiers, monthly/annual toggle, and popular badge"
 ```
 
 ```
