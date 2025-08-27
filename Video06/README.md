@@ -44,7 +44,14 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 - Learning concepts  
 - Quick scripts  
 - Debugging help  
-- Not ideal for: Full applications, Live preview  
+- Not ideal for: Full applications, Live preview
+
+### Pricing
+- **ChatGPT Free**: Limited GPT-3.5
+- **ChatGPT Plus**: $20/month for GPT-4
+- **Claude Free**: Limited usage
+- **Claude Pro**: $20/month
+- **Claude Max**: $100/month (Opus 4.1 access)  
 
 ---
 
@@ -67,7 +74,12 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ### Perfect For
 - Designers learning code  
 - Design-heavy apps  
-- Rapid prototyping  
+- Rapid prototyping
+
+### Pricing
+- **Free tier**: Limited features
+- **With Figma Pro**: Full AI features
+- **Figma Organization**: Custom pricing  
 
 ---
 
@@ -90,7 +102,12 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ### Ideal For
 - Marketing pages  
 - Email templates  
-- Non-technical users  
+- Non-technical users
+
+### Pricing
+- **Not available separately**
+- **Canva Pro**: $14.99/month (includes Canva Code)
+- **Canva Teams**: $30/month for 5 people  
 
 ---
 
@@ -125,6 +142,11 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 - Great for learning full-stack
 - Deploy with one click
 
+### Pricing
+- **Free tier**: Limited usage
+- **Hobby**: $20/month
+- **Pro**: $40/month with more resources
+
 ---
 
 ## Tool 5: V0 by Vercel
@@ -158,6 +180,11 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 - Export directly to your project
 - Integrates with Vercel hosting
 
+### Pricing
+- **Free**: 200 credits/month (~40 generations)
+- **Pro**: $20/month for unlimited
+- **Enterprise**: Custom pricing
+
 ---
 
 ## Tool 6: Lovable (formerly GPT Engineer)
@@ -180,7 +207,13 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 - Production apps  
 - Complex logic  
 - Supabase integration  
-- Think Mode planning  
+- Think Mode planning
+
+### Pricing
+- **Free**: 5 GPT-4 uses
+- **Hobby**: $20/month
+- **Pro**: $50/month with team features
+- **Business**: Custom pricing  
 
 ---
 
@@ -212,6 +245,11 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 - Multiple AI models
 - Works with existing projects
 
+### Pricing
+- **Free**: Limited AI requests
+- **Pro**: $20/month
+- **Business**: $40/month per user
+
 ---
 
 ## Tool 8: VS Code + GitHub Copilot
@@ -240,6 +278,13 @@ async function fetchUser
 - **Continue.dev** - Open source AI
 - **Codeium** - Free alternative
 - **Claude Dev** - Anthropic's assistant
+
+### Pricing
+- **GitHub Copilot Individual**: $10/month
+- **GitHub Copilot Business**: $19/month per user
+- **GitHub Copilot Enterprise**: $39/month per user
+- **Continue.dev**: Free with option for Pro
+- **Codeium**: Free tier, Pro at $10/month
 
 ---
 
@@ -276,6 +321,11 @@ claude chat --model opus
 ```
 "Create a complete authentication system with JWT, refresh tokens, and rate limiting"
 ```
+
+### Pricing
+- **Requires Claude Max subscription**: $100/month
+- **Includes**: Opus 4.1 model access
+- **Usage**: Unlimited within subscription
 
 ---
 
