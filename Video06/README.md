@@ -29,15 +29,15 @@ Follow along with the video using this step-by-step reference guide. Each tool i
 ### Example Prompts to Try
 
 ```
-"Create a simple contact form with name, email, and message fields using HTML and CSS"
+"Create a simple contact form with name, email, and message fields using HTML and CSS in canvas"
 ```
 
 ```
-"Write a JavaScript function to validate email addresses"
+"Write a JavaScript function to validate email addresses in Canvas"
 ```
 
 ```
-"Create a responsive navigation menu with mobile hamburger"
+"Create a responsive navigation menu with mobile hamburger in Canvas"
 ```
 
 ### Best For
