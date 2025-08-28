@@ -100,3 +100,35 @@ This step-by-step video covers everything from setting up your project, brainsto
 - OpenAI
 
 
+## Video 6: Top AI Coding Tools: Your Journey from beginner to advanced AI Programmer
+
+In this video, I will show you the top AI coding tools that can revolutionize your app development process. This comprehensive guide covers when to use each tool, their pricing, capabilities, and which one suits your specific needs. Learn from my journey over the past 10 months, where I progressed from beginner to advanced AI coder while building my startup Ana. Discover how tools like Figma Make, Bolt, V0, Lovable, Cursor, and VS Code with GitHub Copilot and Claude Code Max can streamline your coding and allow you to leverage AI for faster and smarter app development.
+
+### What you'll learn: 
+- When and how to use each AI coding tool 
+- Pricing and unique features of each tool 
+- Which tool is perfect for your specific needs 
+
+### Tools mentioned: 
+- ChatGPT and Cloud 
+- Figma Make 
+- Canva Code 
+- Bolt 
+- V0 
+- Lovable 
+- Cursor 
+- VS Code with GitHub Copilot 
+- Cloud Code Max 
+
+
+## Video 7: Game-Changing Features of RooCode You Can't Miss
+
+In this live session, we covered:
+
+@cline
+@roo_code
+@OpenRouterAI
+
+Installed RooCode inside VS Code
+Configured modes, models, and settings
+Built a sample web application step-by-step
