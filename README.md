@@ -1,134 +1,197 @@
-# AI-Coding-Toolkit
+# AI Coding Toolkit
 
-Welcome to the AI Coding for Beginners masterclass. In this series, I will take you from a beginner’s stage to a more advanced level so you will understand what AI coding is, how to get started and how to build your applications. 
+**Transform your ideas into working applications using AI-powered coding tools**
 
-This repository contains all prompts, code samples and documentation corresponding to each video lesson.
+Welcome to the AI Coding Toolkit - a comprehensive resource for learning AI-assisted development from beginner to advanced levels. This repository contains all prompts, code samples, documentation, and step-by-step guides corresponding to each video in the series.
 
-## Overview
+## About This Series
 
-We will also cover advanced topics, such as writing more effective prompts, connecting to a database, integrating with GitHub, and creating more complex applications.
+After 10 months of intensive AI coding while building my startup Sucana, I've progressed from simple prompts in ChatGPT to professional development with Claude Code CLI. This series shares everything I've learned, helping you skip the trial and error and jump straight to building real applications.
 
-Each video will have hands-on projects and real-world scenarios.
+## Quick Navigation
 
-## Video 1: Start AI Coding Today With These Easy Steps!
+### Video Tutorials & Documentation
 
-Start your journey into AI coding with this beginner masterclass. Discover what AI coding is and how to get started, as well as explore advanced topics like writing effective prompts.
+- **[Video 01: Start AI Coding Today](./video01)** - Your first steps into AI coding
+  - [Show Notes](./video01/show-notes.md) - Quick overview and key takeaways
+  - [Ultimate Guide](./video01/ultimate-guide.md) - Detailed step-by-step tutorial
 
-- What is AI Coding?
-- Demo: Building a Simple Application
-- Enhancing Your Application
-- Exploring More Tools
-- Challenges and Considerations
-- Conclusion and Next Steps
+- **[Video 02: 5 Ways to Build Your First Project](./video02)** - Master different approaches to AI coding
+  - [Show Notes](./video02/show-notes.md) - Methods overview and tools
+  - [Ultimate Guide](./video02/ultimate-guide.md) - Complete implementation guide
 
-## Video 2: Try These 5 Easy Ways To Build Your First Project!
+- **[Video 03: Agency Website Workshop](./video03)** - Build a professional website in 60 minutes
+  - [Show Notes](./video03/show-notes.md) - Workshop highlights and timeline
+  - [Ultimate Guide](./video03/ultimate-guide.md) - Full workshop walkthrough
 
-In this video, I share five powerful methods to get started with your next AI coding project! Learn how to use text prompts, screenshots, Figma designs, boilerplates, and existing code enhancements to maximize your coding efficiency. Additionally, discover a bonus method that combines these techniques for optimal results. Ideal for beginners seeking to effectively leverage AI coding agents.
+- **[Video 04: Student Portfolio with V0.dev](./video04)** - Create a stunning portfolio site
+  - [Show Notes](./video04/show-notes.md) - Portfolio building essentials
+  - [Ultimate Guide](./video04/ultimate-guide.md) - Complete portfolio tutorial
 
-### What you'll learn:
-- Utilizing text prompts for AI coding
-- Converting screenshots and Figma designs into code
-- Implementing boilerplates for quick application starts
-- Enhancing existing code with AI tools
-- Combining methods for optimized coding workflows
+- **[Video 05: Mood Quote Generator with Lovable](./video05)** - Build an AI-powered web app
+  - [Show Notes](./video05/show-notes.md) - Project overview and features
+  - [Ultimate Guide](./video05/ultimate-guide.md) - Full development guide
 
-### Tools mentioned:
-- Bolt
-- V0
-- Figma
-- GitHub
-- Visual Studio Code
+- **[Video 06: Top 9 AI Coding Tools](./video06)** - From ChatGPT to Claude Code CLI
+  - [Show Notes](./video06/show-notes.md) - Tools comparison and pricing
+  - [Ultimate Guide](./video06/ultimate-guide.md) - When and how to use each tool
+  - [README](./video06/README.md) - Quick reference for all tools
 
-## Video 3: (Workshop) From Zero to Live Building Ankit's Agency Website in 60 Minutes
+- **[Video 07: Database Integration with Supabase](./video07)** - Add real databases to AI projects
+  - [Show Notes](./video07/show-notes.md) - Database essentials and setup
+  - [Ultimate Guide](./video07/ultimate-guide.md) - Complete Supabase integration
 
-In this video, I’ll show you step-by-step how to create a professional portfolio website using my favorite AI coding tool V0.dev.
+## Learning Path
 
-You’ll see the entire process, from setting up V0 to customizing your site, adding features, and publishing it live with your own domain, all without writing traditional code.
+### Beginner Level (Week 1-2)
+Start with browser-based tools that require no setup:
+- **Video 01**: Understand AI coding fundamentals
+- **Video 02**: Learn 5 different approaches to building projects
+- **Tools**: ChatGPT, Claude, Figma Make, Canva Code
 
-### What you'll learn: 
-- How to get started with V0 
-- Building a portfolio website for a fresher/student
-- Publishing your site with a custom domain
+### Intermediate Level (Week 3-4)
+Move to specialized AI coding platforms:
+- **Video 03-04**: Build complete websites and portfolios
+- **Video 05**: Create interactive applications
+- **Tools**: V0.dev, Bolt.new, Lovable.dev
 
-### Tools used in this video:
-- V0.dev
-- GitHub
-- VS Code
-- Obsidian
-- Namecheap
+### Advanced Level (Week 5+)
+Graduate to professional development environments:
+- **Video 06**: Master all AI coding tools
+- **Video 07**: Add databases and authentication
+- **Tools**: VS Code + GitHub Copilot, Cursor, Claude Code CLI
 
-## Video 4: Create a STUNNING Fresher/Student Portfolio with AI Coding (V0.dev)
+## Key Features of This Toolkit
 
-In this video, I’ll show you step-by-step how to create a professional portfolio website using my favorite AI coding tool V0.dev.
+### For Each Video You Get:
+- **Show Notes**: Quick reference with timestamps, key concepts, and tool pricing
+- **Ultimate Guide**: Detailed tutorials with code examples and troubleshooting
+- **Project Files**: Complete source code and configurations
+- **AI Prompts**: Tested prompts that work consistently
+- **Common Issues**: Solutions to frequent problems
 
-You’ll see the entire process, from setting up V0 to customizing your site, adding features, and publishing it live with your own domain, all without writing traditional code.
+## Tools Coverage
 
-### What you'll learn: 
-- How to get started with V0 
-- Building a portfolio website for a fresher/student
-- Publishing your site with a custom domain
+### Browser-Based Tools (No Setup Required)
+- **ChatGPT & Claude**: General AI assistants
+- **Figma Make & Canva Code**: Design to code conversion
+- **V0.dev**: Component and UI generation
+- **Bolt.new**: Full-stack web applications
+- **Lovable.dev**: Production-ready apps with backend
 
-### Tools used in this video:
-- V0.dev
-- GitHub
-- VS Code
-- Obsidian
-- Namecheap
+### Professional IDEs
+- **VS Code + GitHub Copilot**: Industry standard setup
+- **Cursor**: AI-first code editor
+- **Claude Code CLI**: Command-line AI coding
 
-## Video 5: You Won't Believe How Easy it is to Create a Mood-Based Quote Generator with Lovable
+### Backend & Deployment
+- **Supabase**: Database and authentication
+- **Vercel**: Deployment platform
+- **GitHub**: Version control and collaboration
 
-In this episode of AI Coding for Beginners, we will create a mood-based quote generator web application, integrate it with Supabase and OpenAI, and enhance its security using the built-in features of Loveable. 
+## Getting Started
 
-This step-by-step video covers everything from setting up your project, brainstorming with Lovable (Think Mode), building effortlessly, integrating with the Supabase database and GitHub, managing keys, ensuring everything is secure before going live by implementing security measures, and publishing your application live. Perfect for beginners.
+### Prerequisites
+- Basic computer skills
+- Chrome or Firefox browser
+- GitHub account (free)
+- Willingness to experiment
 
-### What you’ll learn
+### Quick Start Guide
 
-- Building a mood-based quote generator with Lovable
-- Using Think Mode for AI-driven brainstorming and planning
-- Connecting a Supabase database
-- Integrating OpenAI APIs
-- Publishing to GitHub
-- Adding a custom domain
-- Validating security and fixing issues
-- Launching your web application
+1. **Choose Your Starting Point**:
+   - Complete beginner? Start with [Video 01](./video01)
+   - Some coding experience? Jump to [Video 03](./video03)
+   - Want to compare tools? Check [Video 06](./video06)
 
-### Tools used in this video:
+2. **Pick Your First Project**:
+   - Personal portfolio: [Video 04](./video04)
+   - Interactive web app: [Video 05](./video05)
+   - Business website: [Video 03](./video03)
 
-- Lovable
-- Supabase
-- GitHub
-- OpenAI
+3. **Select Your Tool**:
+   - Free option: Start with ChatGPT or Claude
+   - Best for beginners: V0.dev (generous free tier)
+   - Most powerful: Claude Code CLI
 
+## Project Examples
 
-## Video 6: Top AI Coding Tools: Your Journey from beginner to advanced AI Programmer
+### Built with These Tools:
+- Professional agency websites
+- Student portfolios with custom domains
+- AI-powered quote generators
+- Real-time chat applications
+- E-commerce product catalogs
+- Task management systems
+- Blog platforms with comments
 
-In this video, I will show you the top AI coding tools that can revolutionize your app development process. This comprehensive guide covers when to use each tool, their pricing, capabilities, and which one suits your specific needs. Learn from my journey over the past 10 months, where I progressed from beginner to advanced AI coder while building my startup Ana. Discover how tools like Figma Make, Bolt, V0, Lovable, Cursor, and VS Code with GitHub Copilot and Claude Code Max can streamline your coding and allow you to leverage AI for faster and smarter app development.
+## Community & Support
 
-### What you'll learn: 
-- When and how to use each AI coding tool 
-- Pricing and unique features of each tool 
-- Which tool is perfect for your specific needs 
+### Get Help
+- Watch the video tutorials for visual guidance
+- Read the ultimate guides for detailed instructions
+- Check show notes for quick reference
+- Review README files for specific tool information
 
-### Tools mentioned: 
-- ChatGPT and Cloud 
-- Figma Make 
-- Canva Code 
-- Bolt 
-- V0 
-- Lovable 
-- Cursor 
-- VS Code with GitHub Copilot 
-- Cloud Code Max 
+### Share Your Projects
+- Use hashtag #AICodingToolkit
+- Share your creations in discussions
+- Contribute improvements via pull requests
 
+## Frequently Asked Questions
 
-## Video 7: Game-Changing Features of RooCode You Can't Miss
+### Which tool should I start with?
+Start with V0.dev for web development or ChatGPT for general coding help. Both have generous free tiers.
 
-In this live session, we covered:
+### Do I need coding experience?
+No! These tools are designed for beginners. The AI handles the complex coding while you focus on what you want to build.
 
-@cline
-@roo_code
-@OpenRouterAI
+### What can I build?
+Anything from simple websites to complex applications with databases, authentication, and real-time features.
 
-Installed RooCode inside VS Code
-Configured modes, models, and settings
-Built a sample web application step-by-step
+### How much does it cost?
+Most tools have free tiers. You can build and deploy complete projects without spending money initially.
+
+### How long to learn?
+- Basic proficiency: 1-2 weeks
+- Intermediate skills: 3-4 weeks  
+- Advanced techniques: 5-6 weeks
+
+## Updates & Roadmap
+
+### Recent Additions
+- Video 07: Database integration with Supabase
+- Enhanced documentation for all videos
+- Comprehensive pricing information
+- Troubleshooting guides
+
+### Coming Soon
+- Mobile app development with AI
+- API integration tutorials
+- Advanced Claude Code CLI techniques
+- Deployment optimization guides
+
+## Contributing
+
+Contributions are welcome! Please feel free to:
+- Report issues or bugs
+- Suggest new tutorials
+- Share your projects
+- Improve documentation
+
+## License
+
+This project is open source and available for educational purposes. Please credit this toolkit when using materials in your own projects.
+
+## Connect
+
+- Subscribe to the YouTube channel for video tutorials
+- Follow for daily AI coding tips
+- Join our community discussions
+- Share your journey with #AICodingToolkit
+
+---
+
+**Remember**: You're just prompts away from your next application. Start building today!
+
+*Last updated: August 2025*
