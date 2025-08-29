@@ -167,13 +167,11 @@ Most tools have free tiers. You can build and deploy complete projects without s
 ## Updates & Roadmap
 
 ### Recent Additions
-- Video 07: Database integration with Supabase
 - Enhanced documentation for all videos
-- Comprehensive pricing information
 - Troubleshooting guides
-- RooCode VS Code extension coverage
 
 ### Coming Soon
+- Video 07: Database integration with Supabase
 - Advanced RooCode configuration and workflows
 - Mobile app development with AI
 - API integration tutorials
@@ -194,9 +192,9 @@ This project is open source and available for educational purposes. Please credi
 
 ## Connect
 
-- Subscribe to the YouTube channel for video tutorials
-- Follow for daily AI coding tips
-- Join our community discussions
+- Subscribe to the YouTube channel [https://www.youtube.com/@vinod.sharma?sub_confirmation=1] for video tutorials
+- Follow me on X [https://x.com/VinodSharma10x] and LinkedIn [linkedin.com/in/vinodsharma10x] for daily AI coding tips
+- Join our community discussions [https://www.skool.com/aicoding-8816]
 - Share your journey with #AICodingToolkit
 
 ---
