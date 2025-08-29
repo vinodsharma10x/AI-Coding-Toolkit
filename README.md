@@ -192,9 +192,9 @@ This project is open source and available for educational purposes. Please credi
 
 ## Connect
 
-- Subscribe to the YouTube channel [https://www.youtube.com/@vinod.sharma?sub_confirmation=1] for video tutorials
-- Follow me on X [https://x.com/VinodSharma10x] and LinkedIn [linkedin.com/in/vinodsharma10x] for daily AI coding tips
-- Join our community discussions [https://www.skool.com/aicoding-8816]
+- Subscribe to the [YouTube channel] (https://www.youtube.com/@vinod.sharma?sub_confirmation=1) for video tutorials
+- Follow me on [X] (https://x.com/VinodSharma10x) and [LinkedIn] (linkedin.com/in/vinodsharma10x) for daily AI coding tips
+- Join our [community discussions] (https://www.skool.com/aicoding-8816)
 - Share your journey with #AICodingToolkit
 
 ---
