@@ -328,8 +328,8 @@ Try: "Use a minimalist design with sans-serif fonts, white background, and blue 
 - React Basics: https://react.dev
 
 ### Inspiration
-- Portfolio examples on Behance
-- Awwwards for design ideas
+- Portfolio examples on [Behance](https://www.behance.net/search/projects/web%20design%20)
+- Awards for design ideas
 - GitHub for code examples
 
 ### Communities
