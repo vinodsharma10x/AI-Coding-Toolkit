@@ -112,7 +112,7 @@ Discover five powerful methods to start your AI coding projects! Learn how to us
 - Most tools offer free tiers
 - Boilerplates: Free to $200+
 - AI tools: $0-50/month
-- Combine free tiers for full workflow
+
 
 ## Pro Tips
 - Start simple, then enhance
