@@ -28,12 +28,12 @@ That's it! With Claude Code Max subscription, you don't need to configure API ke
 
 ## Configuration
 
-### Option 1: Claude Code Max Subscription (How I Use It)
-If you have a **Claude Code Max subscription** like I do:
+### Option 1: Claude Code Subscription (How I Use It)
+If you have a **Claude Code or Claude Code Max subscription** like I do:
 - No API key configuration needed
 - Just install and run `claude` in your project
-- Authentication happens through your browser on first use
-- Includes unlimited usage within the subscription
+- Claude will open browser to authenticate on first use
+- Includes usage within the Claude subscription
 
 ### Option 2: Using API Key
 If you're using an Anthropic API key:
@@ -44,36 +44,24 @@ export ANTHROPIC_API_KEY="your-api-key-here"
 
 ## IDE Integration (How I Use It)
 
-### VS Code Integration
-I use Claude Code with VS Code for the best experience:
+### VS Code Integration (Auto-Installation!)
+Claude Code works seamlessly with VS Code and popular forks (Cursor, Windsurf, VSCodium).
 
-1. **Install the VS Code Extension:**
-   - Open VS Code
-   - Go to Extensions (Cmd+Shift+X on Mac)
-   - Search for "Claude Code"
-   - Install the official Anthropic extension
-
-2. **Connect VS Code with Claude Code:**
-   - Open command palette (Cmd+Shift+P)
-   - Run "Claude: Connect to Session"
-   - Your VS Code now syncs with your Claude Code terminal session
-
-3. **Benefits of IDE Integration:**
-   - See Claude's edits in real-time in your editor
-   - Use VS Code's diff viewer for changes
-   - Keep your familiar VS Code setup while Claude works
-   - Navigate to files Claude mentions with one click
+**Installation - It's Automatic!**
+1. Open VS Code in your project
+2. Open the integrated terminal (Terminal → New Terminal)
+3. Run `claude` - the extension auto-installs! 🎉
+![alt text](Claude-code-vscode-ext.png)
 
 ## Basic Usage
 
 ### How I Start My Day with Claude Code:
 ```bash
 # Open VS Code in my project
-code /path/to/sucana-v4
+code /path/to/sucana
 
 # In terminal, start Claude Code
-cd /path/to/sucana-v4
-claude
+claude --resume (to resume previously running session)
 
 # Claude remembers context from previous sessions!
 ```
@@ -98,45 +86,84 @@ claude
 
 ### Key Commands I Use Daily
 
-- **Feature Development:** "Add [feature] with proper error handling and tests"
+- **Feature Development:** "Add [feature] with proper error handling and tests." "I want to implement AWS S3 in my application to store audio and video file generated during ads creation flow."
 - **Bug Fixing:** "This error is happening: [paste error]. Fix it"
 - **Code Review:** "Review this code and suggest improvements"
-- **Documentation:** "Update the README with these new endpoints"
-- **Deployment:** "Guide me through deploying this to production"
+- **Documentation:** "Update the README with these new endpoints." "create a step-by-step guide of how we configured and deployed our code on AWS."
+- **Deployment:** "Guide me through deploying backend to production. I want to deploy frontend on Vercel and backend to AWS Lightsail servers."
 
 ## Powerful Features I Use
 
-### 1. Multi-File Operations
-**What I say:** "Update all React components to use the new design system"
+## Powerful Features I Use
+
+### 1. Plan Mode (For Big Features) 🎯
+**How I activate it:** Press `Shift+Tab` twice
+**When I use it:** For new features and architectural decisions
+
+**Example: AWS S3 Implementation**
+```
+Me: [Shift+Tab twice to enter plan mode]
+"I want to implement AWS S3 in my application to store audio and 
+video files generated during ads creation flow. What do you think 
+about it and what's the best way to implement?"
+
+Claude: [Provides detailed architecture plan, discusses pros/cons, 
+suggests implementation steps]
+
+Me: "Let's also consider CDN integration and signed URLs for security"
+
+Claude: [Refines plan with security considerations]
+
+Me: [Exit plan mode and Claude implements the agreed plan]
+```
+
+**Example: Facebook Marketing API Integration**
+```
+Me: [In plan mode]
+"I want to pull FB marketing data. Here's what I'm thinking..."
+
+Claude: [Discusses OAuth flow, data models, rate limiting, 
+suggests best practices]
+```
+
+**Benefits of Plan Mode:**
+- Have thoughtful discussions before coding
+- Explore different approaches
+- Consider edge cases and security
+- Get architecture recommendations
+- Claude then implements exactly what we planned
+
+### 2. Multi-File Operations
+**What I say:** "Update all React components to use the new design system." "implement a comprehensive database log for the audio generation flow."
 **Claude does:** Identifies all components, updates imports, applies consistent styling
 
-### 2. Smart Context Understanding  
+### 3. Smart Context Understanding  
 Claude remembers our entire conversation. I can say:
 - "Do the same for the Scripts page"
 - "Like we did yesterday"
 - "Fix that error from before"
 
-### 3. Automatic Tool Selection
+### 4. Automatic Tool Selection
 Claude automatically chooses the right approach:
 - Uses `grep` for searching
 - Uses `git` for version control
 - Runs `npm test` when needed
 - Checks file existence before editing
 
-### 4. Real-Time Collaboration
+### 5. Real-Time Collaboration
 With VS Code integration, I see:
 - Files being edited live
 - Terminal commands running
 - Git changes accumulating
 - All while I can test in another terminal
 
-### 5. Intelligent Task Management
+### 6. Intelligent Task Management
 Claude tracks complex multi-step tasks:
 - Creates todo lists automatically
 - Marks items complete as it works
 - Ensures nothing is forgotten
 
-### 6. Production-Ready Code
+### 7. Production-Ready Code
 Claude writes code that's:
 - Properly typed (TypeScript)
 - Has error handling
@@ -201,7 +228,7 @@ Claude remembers your conversation, so you can:
 ### Example 1: Performance Optimization
 **What I said:**
 ```
-"Could you please optimize the campaign page as it is very slow"
+"Could you please optimize the campaign list page as it is very slow"
 ```
 **What Claude Code did:**
 - Analyzed database queries across multiple files
