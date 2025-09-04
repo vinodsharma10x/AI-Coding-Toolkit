@@ -7,87 +7,141 @@ Claude Code is Anthropic's official CLI tool that brings Claude's AI capabilitie
 ## Prerequisites
 
 - macOS, Linux, or Windows (with WSL)
-- Node.js 18+ or Python 3.8+
-- An Anthropic API key (get one at [console.anthropic.com](https://console.anthropic.com))
+- Node.js 18 or newer
+- A Claude.ai account (either Claude Code Max subscription or Anthropic API key)
 
 ## Installation
 
-### Option 1: Using npm (Recommended)
+### Quick Start (How I Use It)
 ```bash
-npm install -g @anthropic/claude-cli
+# Install Claude Code globally
+npm install -g @anthropic-ai/claude-code
+
+# Navigate to your project
+cd /path/to/your/project
+
+# Start Claude Code
+claude
 ```
 
-### Option 2: Using pip
-```bash
-pip install claude-cli
-```
-
-### Option 3: Using Homebrew (macOS)
-```bash
-brew tap anthropic/tap
-brew install claude-code
-```
+That's it! With Claude Code Max subscription, you don't need to configure API keys.
 
 ## Configuration
 
-1. **Set up your API key:**
-```bash
-claude-code configure
-# Enter your Anthropic API key when prompted
-```
+### Option 1: Claude Code Max Subscription (How I Use It)
+If you have a **Claude Code Max subscription** like I do:
+- No API key configuration needed
+- Just install and run `claude` in your project
+- Authentication happens through your browser on first use
+- Includes unlimited usage within the subscription
 
-2. **Or set via environment variable:**
+### Option 2: Using API Key
+If you're using an Anthropic API key:
 ```bash
+# Set via environment variable
 export ANTHROPIC_API_KEY="your-api-key-here"
 ```
 
+## IDE Integration (How I Use It)
+
+### VS Code Integration
+I use Claude Code with VS Code for the best experience:
+
+1. **Install the VS Code Extension:**
+   - Open VS Code
+   - Go to Extensions (Cmd+Shift+X on Mac)
+   - Search for "Claude Code"
+   - Install the official Anthropic extension
+
+2. **Connect VS Code with Claude Code:**
+   - Open command palette (Cmd+Shift+P)
+   - Run "Claude: Connect to Session"
+   - Your VS Code now syncs with your Claude Code terminal session
+
+3. **Benefits of IDE Integration:**
+   - See Claude's edits in real-time in your editor
+   - Use VS Code's diff viewer for changes
+   - Keep your familiar VS Code setup while Claude works
+   - Navigate to files Claude mentions with one click
+
 ## Basic Usage
 
-### Start Claude Code in your project directory:
+### How I Start My Day with Claude Code:
 ```bash
-cd /path/to/your/project
-claude-code
+# Open VS Code in my project
+code /path/to/sucana-v4
+
+# In terminal, start Claude Code
+cd /path/to/sucana-v4
+claude
+
+# Claude remembers context from previous sessions!
 ```
 
-### Key Commands
+### My Typical Workflow
 
-- **Read files:** Claude automatically reads files you reference
-- **Edit files:** Claude can modify multiple files simultaneously  
-- **Run commands:** Claude can execute terminal commands
-- **Search code:** Claude can search across your entire codebase
-- **Git operations:** Claude can commit changes with proper messages
+1. **Describe what I want in plain English:**
+   ```
+   "I want to allow users to edit campaign names inline from the campaigns list"
+   ```
 
-## Powerful Features
+2. **Claude Code automatically:**
+   - Reads relevant files
+   - Creates/modifies multiple files
+   - Runs tests if needed
+   - Shows me exactly what changed
+
+3. **I review in VS Code:**
+   - See all changes in the diff viewer
+   - Test the feature
+   - Ask for adjustments if needed
+
+### Key Commands I Use Daily
+
+- **Feature Development:** "Add [feature] with proper error handling and tests"
+- **Bug Fixing:** "This error is happening: [paste error]. Fix it"
+- **Code Review:** "Review this code and suggest improvements"
+- **Documentation:** "Update the README with these new endpoints"
+- **Deployment:** "Guide me through deploying this to production"
+
+## Powerful Features I Use
 
 ### 1. Multi-File Operations
-```
-"Update all React components to use the new design system"
-```
-Claude will identify and update all relevant files.
+**What I say:** "Update all React components to use the new design system"
+**Claude does:** Identifies all components, updates imports, applies consistent styling
 
-### 2. Complex Refactoring
-```
-"Optimize the database queries in the campaigns page"
-```
-Claude can analyze and improve performance across your stack.
+### 2. Smart Context Understanding  
+Claude remembers our entire conversation. I can say:
+- "Do the same for the Scripts page"
+- "Like we did yesterday"
+- "Fix that error from before"
 
-### 3. Feature Development
-```
-"Add inline editing for campaign names with proper error handling"
-```
-Claude builds complete features with frontend, backend, and database changes.
+### 3. Automatic Tool Selection
+Claude automatically chooses the right approach:
+- Uses `grep` for searching
+- Uses `git` for version control
+- Runs `npm test` when needed
+- Checks file existence before editing
 
-### 4. Debugging & Fixes
-```
-"Fix the CORS error for PATCH requests in production"
-```
-Claude diagnoses issues and implements solutions.
+### 4. Real-Time Collaboration
+With VS Code integration, I see:
+- Files being edited live
+- Terminal commands running
+- Git changes accumulating
+- All while I can test in another terminal
 
-### 5. Deployment Assistance
-```
-"Help me deploy this to AWS Lightsail with Docker"
-```
-Claude provides step-by-step deployment guidance.
+### 5. Intelligent Task Management
+Claude tracks complex multi-step tasks:
+- Creates todo lists automatically
+- Marks items complete as it works
+- Ensures nothing is forgotten
+
+### 6. Production-Ready Code
+Claude writes code that's:
+- Properly typed (TypeScript)
+- Has error handling
+- Follows existing patterns in my codebase
+- Includes helpful comments when needed
 
 ## Project Setup Tips
 
@@ -142,25 +196,55 @@ Claude remembers your conversation, so you can:
 
 5. **Use Version Control:** Commit working code before major refactors
 
-## Real-World Examples
+## Real-World Examples (From My Session Today)
 
 ### Example 1: Performance Optimization
+**What I said:**
 ```
-User: "The campaigns page is loading slowly"
-Claude: *Analyzes queries, implements batch fetching, reduces load time by 80%*
+"Could you please optimize the campaign page as it is very slow"
 ```
+**What Claude Code did:**
+- Analyzed database queries across multiple files
+- Implemented batch fetching to reduce N+1 queries
+- Reduced API calls from 50+ to just 2
+- Result: 80-90% reduction in data transferred
 
-### Example 2: UI Enhancement
+### Example 2: UI Enhancement  
+**What I said:**
 ```
-User: "Make the angles on the Hooks page collapsible with prominent styling"
-Claude: *Updates component with Material-UI Collapse, adds gradient backgrounds, implements expand/collapse state management*
+"On the hook page, I would like to highlight angles just like how we show them 
+on script page. Also make them expand and collapse when user click on them"
 ```
+**What Claude Code did:**
+- Read both HooksV2.tsx and Scripts.tsx to understand the design
+- Added Material-UI Collapse and IconButton imports
+- Implemented gradient backgrounds matching Scripts page
+- Added expand/collapse state management with animations
+- Sorted angles by number and expanded first by default
 
-### Example 3: Bug Fix
+### Example 3: Complex Bug Fix
+**What I said:**
 ```
-User: "CORS error when updating campaign names in production"
-Claude: *Diagnoses preflight issue, adds OPTIONS middleware, provides deployment steps*
+"I completed the flow and it shows 100% but in progress. 
+Also video is shown as unchecked"
 ```
+**What Claude Code did:**
+- Traced through the video generation endpoint
+- Found status wasn't being updated to "completed"
+- Updated both backend (Python) and frontend (React) logic
+- Fixed the visual indicator in CampaignsList.tsx
+
+### Example 4: Deployment Assistance
+**What I said:**
+```
+"Backend is not deployed. What do I do to deploy. 
+I can connect to AWS Lightsail using their browser"
+```
+**What Claude Code did:**
+- Guided through SSH connection
+- Discovered Docker setup (not Python venv)
+- Provided exact Docker commands for deployment
+- Updated project documentation with deployment steps
 
 ## Limitations
 
