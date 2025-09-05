@@ -50,7 +50,9 @@ Claude Code works seamlessly with VS Code and popular forks (Cursor, Windsurf, V
 **Installation - It's Automatic!**
 1. Open VS Code in your project
 2. Open the integrated terminal (Terminal → New Terminal)
-3. Run `claude` - the extension auto-installs! 🎉
+3. Run `claude` - the extension auto-installs! 
+
+![Claude code and vscode ide integration](Claude-code-vscode-ide-integration.png)
 
 ## Basic Usage
 
